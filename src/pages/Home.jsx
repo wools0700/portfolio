@@ -38,47 +38,7 @@ const projects = [
         desc: "사내 회계 시스템 제작",
         skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
         image: "/images/security_policy.jpg",
-        link: "/project1"
-    },
-    {
-        title: "SM-TMCall 시스템",
-        period: "2025.07 ~ 2025.08",
-        desc: "자회사(쇼엠 인슈어런스) 보험 텔레마케팅 사용자 및 관리자 사이트 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/project2.png",
-        link: "/project2"
-    },
-    {
-        title: "수수료 시스템",
-        period: "2025.12 ~ 2026.01",
-        desc: "자회사(쇼엠 인슈어런스) 상담원 관리 및 수수료 정산 자동화 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/project3.png",
-        link: "/project3"
-    },
-    {
-        title: "쇼엠 인슈어런스 종합정보시스템 제작",
-        period: "2025.09",
-        desc: "자회사(쇼엠 인슈어런스) 사내 종합 정보 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/project4.png",
-        link: "/project4"
-    },
-    {
-        title: "상담톡 시스템",
-        period: "2026.01 ~ 2026.02",
-        desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/project5.png",
-        link: "/project5"
-    },
-    {
-        title: "SM-TMCall 분석 사이트",
-        period: "2026.01",
-        desc: "자회사(쇼엠 인슈어런스) 녹취 분석 및 통계 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/project6.png",
-        link: "/project6"
+        link: "/#"
     }
 ];
 
@@ -147,7 +107,7 @@ function Home() {
 
                 <div className="about-wrap">
                     <div className="profile-wrap">
-                        <img src="/public/images/profile.jpg" alt="profile" />
+                        <img src="`${import.meta.env.BASE_URL}images/profile.jpg`" alt="profile" />
                     </div>
 
                     <div className="info-wrap">
@@ -210,15 +170,14 @@ function Home() {
                     {projects.map(project => (
                         <SwiperSlide key={project.title}>
                             <Link
-                                // to={project.link}
-                                to="#"
+                                to={project.link}
                                 className="project-link"
                             >
                                 <div className="project-item">
 
                                     <div className="project-thumb">
                                         <img
-                                            src={project.image}
+                                            src={`${import.meta.env.BASE_URL}${project.image}`}
                                             alt={project.title}
                                         />
                                     </div>
