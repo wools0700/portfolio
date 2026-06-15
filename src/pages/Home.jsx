@@ -109,7 +109,7 @@ function Home() {
 
                 <div className="about-wrap">
                     <div className="profile-wrap">
-                        <img src="`${import.meta.env.BASE_URL}images/profile.jpg`" alt="profile" />
+                        <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="profile" />
                     </div>
 
                     <div className="info-wrap">

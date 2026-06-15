@@ -28,7 +28,7 @@ header nav .menu-item:hover { color: #51609c; }
 .about-wrap .info-wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; line-height: 50px; } 
 .about-wrap .info-wrap .info-item { min-width: 340px; display: flex; justify-content: flex-start; align-items: center; gap: 25px; } 
 .about-wrap .info-wrap .info-item .info-label { font-size: 24px; font-weight: 700; } 
-.about-wrap .info-wrap .info-item .info-value { font-size: 24px; font-size: 500; } 
+.about-wrap .info-wrap .info-item .info-value { font-size: 24px; font-weight: 500; } 
 
 .skill-wrap { display: flex; flex-direction: column; gap: 22px; } 
 .skill-wrap .skill-item { display: flex; align-items: center; } 
