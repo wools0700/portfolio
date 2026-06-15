@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; letter-spacing: -1px; box-sizing: border-box; text-decoration: none; } 
+
+html { scroll-behavior: smooth; } 
+
+body { font-family: sans-serif; } 
+
+header { display: flex; justify-content: center; align-items: center; padding: 30px 0; } 
+header nav { display: flex; justify-content: center; align-items: center; gap: 30px; padding: 10px 40px; background-color: #91A3EA; border-radius: 10px; } 
+header nav .menu-item { padding: 5px 8px; font-size: 18px; font-weight: 500; color: #fff; } 
+header nav .menu-item:hover { color: #51609c; } 
+
+#container { max-width: 1200px; width: 100%; margin: 0 auto; padding: 40px 20px; } 
+
+.hero-banner { width: 100%; padding: 100px 80px; border-radius: 24px; background: linear-gradient(135deg, #6D81D0, #8FA8FF); color: #fff; margin-bottom: 60px; position: relative; overflow: hidden; } 
+.hero-banner::after { content: ""; position: absolute; right: -50px; top: -50px; width: 300px; height: 300px; background: rgba(255,255,255,0.1); border-radius: 50%; } 
+.hero-sub { font-size: 18px; letter-spacing: 2px; opacity: 0.8; margin-bottom: 20px; } 
+.hero-title { font-size: 48px; font-weight: 800; line-height: 1.3; } 
+.hero-title span { color: #FFD796; } 
+.hero-desc { margin-top: 20px; font-size: 20px; opacity: 0.9; } 
+
+.section-item { padding: 60px 76px; } 
+.section-item.colored { background-color: #CED6F4; } 
+.section-item .section-title { font-size: 48px; margin-bottom: 50px; color: #6D81D0; } 
+
+.about-wrap { display: flex; justify-content: flex-start; align-items: center; gap: 60px; margin-bottom: 50px; } 
+.about-wrap .profile-wrap { width: 264px; height: 264px; border-radius: 50%; overflow: hidden; flex-shrink: 0; } 
+.about-wrap .profile-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; } 
+.about-wrap .info-wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; line-height: 50px; } 
+.about-wrap .info-wrap .info-item { min-width: 340px; display: flex; justify-content: flex-start; align-items: center; gap: 25px; } 
+.about-wrap .info-wrap .info-item .info-label { font-size: 24px; font-weight: 700; } 
+.about-wrap .info-wrap .info-item .info-value { font-size: 24px; font-size: 500; } 
+
+.skill-wrap { display: flex; flex-direction: column; gap: 22px; } 
+.skill-wrap .skill-item { display: flex; align-items: center; } 
+.skill-wrap .skill-item .skill-label { font-size: 24px; font-weight: 700; width: 150px; } 
+.skill-wrap .skill-item .skill-bar { width: 840px; height: 47px; border-radius: 5px; background-color: #F0F0F0; } 
+.skill-wrap .skill-item .skill-bar .skill-fill { position: relative; height: 100%; background-color: #FFD796; border-radius: 5px 30px 30px 5px; } 
+.skill-wrap .skill-item .skill-bar .skill-value { font-size: 24px; font-weight: 500; position: absolute; top: 50%; right: 30px; transform: translateY(-50%) } 
+
+.project-swiper { padding-bottom: 50px; } 
+.project-item { background: #fff; border: 1px solid #ddd; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.05); } 
+.project-thumb { aspect-ratio: 16 / 9; background: #ddd; } 
+.project-thumb img { width: 100%; height: 100%; object-fit: cover; } 
+.project-content { padding: 20px; } 
+.project-name { font-size: 22px; font-weight: 700; } 
+.project-date { margin-top: 5px; color: #888; font-size: 15px; } 
+.project-desc { margin-top: 14px; line-height: 1.7; color: #555; } 
+.project-skill { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; } 
+.project-skill span { padding: 4px 10px; border-radius: 6px; font-size: 13px; } 
+.swiper-pagination { bottom: 0 !important; } 
+.project-link { display: block; color: inherit; text-decoration: none; } 
+
+.project-skill span.HTML { border: 1px solid #FF9C2B; background-color: #FF9C2B4D; } 
+.project-skill span.CSS { border: 1px solid #A8DBFF; background-color: #A8DBFF4D; } 
+.project-skill span.JavaScript { border: 1px solid #90C4A4; background-color: #90C4A44D; } 
+.project-skill span.jQuery { border: 1px solid #AF90C4; background-color: #AF90C44D; } 
+.project-skill span.PHP { border: 1px solid #FFD796; background-color: #FFD7964D; } 
+.project-skill span.React { border: 1px solid #FFA8A8; background-color: #FFA8A84D; } 
+.project-skill span.GitHub { border: 1px solid #7EE1E4; background-color: #7EE1E44D; } 
+.project-skill span.AI { border: 1px solid #E47ECE; background-color: #E47ECE4D; } 
+.project-skill span.Python { border: 1px solid #697DFF; background-color: #697DFF4D; } 
+.project-skill span.MySQL { border: 1px solid #b9ff69; background-color: #adff694d; } 
+
+.career-company { margin-bottom: 30px; border-bottom: 1px solid #A2A2A2; } 
+.career-company:last-of-type { border-bottom: none; } 
+.career-company-name { font-size: 28px; font-weight: 700; margin-bottom: 10px; } 
+.career-period { color: #666; margin-bottom: 15px; } 
+.career-skills { display: flex; gap: 10px; margin-bottom: 20px; } 
+.career-skill-tag { padding: 5px 12px; border-radius: 5px; color: #fff; background-color: #6D81D0; } 
+.career-projects { padding: 20px 0 30px; } 
+.career-project-item { margin-bottom: 30px; } 
+.career-project-item:last-of-type { margin-bottom: 0; } 
+.career-project-item .career-title { font-size: 18px; font-weight: 700; border-left: 4px solid #6D81D0; padding-left: 8px; } 
+.career-project-item .career-date { font-size: 14px; color: #888; margin: 5px 0; padding-left: 12px; } 
+.career-project-item .career-desc { padding-left: 12px; margin-top: 15px; } 
+
+
+@media (max-width: 768px) { /* 전체 여백 */
+    #container { padding: 20px 16px; } 
+
+    /* 헤더 */
+    header nav { gap: 15px; padding: 8px 20px; } 
+    header nav .menu-item { font-size: 14px; } 
+
+    /* 배너 */
+    .hero-banner { padding: 60px 30px; } 
+    .hero-title { font-size: 32px; } 
+    .hero-desc { font-size: 16px; } 
+
+    /* 섹션 */
+    .section-item { padding: 40px 20px; } 
+    .section-item .section-title { font-size: 32px; } 
+
+    /* about */
+    .about-wrap { flex-direction: column; align-items: center; text-align: center; gap: 30px; } 
+    .about-wrap .profile-wrap { width: 180px; height: 180px; } 
+    .about-wrap .info-wrap { flex-direction: column; align-items: flex-start; gap: 10px; } 
+    .about-wrap .info-wrap .info-item { min-width: unset; gap: 15px; } 
+    .about-wrap .info-wrap .info-item .info-label,
+    .about-wrap .info-wrap .info-item .info-value { font-size: 18px; } 
+
+    /* 스킬 */
+    .skill-wrap .skill-item { flex-direction: column; align-items: flex-start; gap: 10px; } 
+    .skill-wrap .skill-item .skill-label { width: auto; font-size: 18px; } 
+    .skill-wrap .skill-item .skill-bar { width: 100%; height: 30px; } 
+    .skill-wrap .skill-item .skill-bar .skill-value { font-size: 14px; right: 10px; } 
+
+    /* 프로젝트 */
+    .project-name { font-size: 18px; } 
+    .project-desc { font-size: 14px; } 
+
+    /* 커리어 */
+    .career-company-name { font-size: 22px; } 
+    .career-project-item .career-title { font-size: 16px; } 
+}
+@media (max-width: 480px){
+    .hero-title { font-size: 26px; } 
+    .hero-desc { font-size: 14px; } 
+    .section-item .section-title { font-size: 26px; } 
+    header nav { flex-wrap: wrap; gap: 10px; } 
+    header nav .menu-item { font-size: 12px; } 
+}
