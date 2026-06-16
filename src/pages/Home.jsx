@@ -119,16 +119,32 @@ const careerData = [
     },
 ];
 
+const moveTo = (id) => {
+    document.getElementById(id)?.scrollIntoView({
+        behavior: "smooth"
+    });
+};
 
 function Home() {
     return (
         <>
             <header>
                 <nav>
-                    <a className="menu-item" href="#about">About</a>
-                    <a className="menu-item" href="#skill">Skills</a>
-                    <a className="menu-item" href="#project">Project</a>
-                    <a className="menu-item" href="#career">Career</a>
+                    <button className="menu-item" onClick={() => moveTo("about")}>
+                        About
+                    </button>
+
+                    <button className="menu-item" onClick={() => moveTo("skill")}>
+                        Skills
+                    </button>
+
+                    <button className="menu-item" onClick={() => moveTo("project")}>
+                        Project
+                    </button>
+
+                    <button className="menu-item" onClick={() => moveTo("career")}>
+                        Career
+                    </button>
                 </nav>
             </header>
 
