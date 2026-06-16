@@ -53,7 +53,7 @@ const projects = [
     // {
     //     title: "수수료 시스템",
     //     period: "2025.12 ~ 2026.01",
-    //     desc: "자회사(쇼엠 인슈어런스) 상담원 관리 및 수수료 정산 자동화 시스템 제작",
+    //     desc: "자회사(쇼엠 인슈어런스) 상담원 수수료 관리 및 정산 업무 지원 시스템 제작",
     //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
     //     image: "/images/security_policy.jpg",
     //     link: "/#"
