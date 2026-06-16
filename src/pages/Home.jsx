@@ -294,6 +294,14 @@ function Home() {
                 ))}
 
                 </section>
+
+                <footer className="footer">
+                    <div className="footer-inner">
+                        <p className="footer-title">© 2026 Portfolio</p>
+                        <p>React 기반으로 제작된 개인 포트폴리오입니다.</p>
+                        <p>프로젝트 내용은 실제 업무 경험을 기반으로 작성되었으며, 보안 정책에 따라 일부 정보는 비공개 처리되었습니다.</p>
+                    </div>
+                </footer>
         </>
     );
 }

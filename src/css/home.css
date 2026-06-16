@@ -91,6 +91,32 @@ header nav .menu-item:hover { color: #51609c; }
 .career-project-item .career-date { font-size: 14px; color: #888; margin: 5px 0; padding-left: 12px; } 
 .career-project-item .career-desc { padding-left: 12px; margin-top: 15px; } 
 
+.footer {
+    margin-top: 100px;
+    padding: 40px 20px;
+    border-top: 1px solid #eee;
+    background: #fafafa;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-title {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.footer-inner p:not(.footer-title) {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #888;
+}
+
 
 @media (max-width: 768px) { /* 전체 여백 */
     #container { padding: 20px 16px; } 
