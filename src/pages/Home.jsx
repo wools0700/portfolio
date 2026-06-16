@@ -48,40 +48,40 @@ const projects = [
         desc: "자회사(쇼엠 인슈어런스) 보험 텔레마케팅 사용자 및 관리자 사이트 제작",
         skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
         image: "/images/security_policy.jpg",
-        link: "/#"
+        link: "/project2"
     },
-    {
-        title: "수수료 시스템",
-        period: "2025.12 ~ 2026.01",
-        desc: "자회사(쇼엠 인슈어런스) 상담원 관리 및 수수료 정산 자동화 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/security_policy.jpg",
-        link: "/#"
-    },
-    {
-        title: "쇼엠 인슈어런스 종합정보시스템 제작",
-        period: "2025.09",
-        desc: "자회사(쇼엠 인슈어런스) 사내 종합 정보 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/security_policy.jpg",
-        link: "/#"
-    },
-    {
-        title: "상담톡 시스템",
-        period: "2026.01 ~ 2026.02",
-        desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/security_policy.jpg",
-        link: "/#"
-    },
-    {
-        title: "SM-TMCall 분석 사이트",
-        period: "2026.01",
-        desc: "자회사(쇼엠 인슈어런스) 녹취 분석 및 통계 시스템 제작",
-        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-        image: "/images/security_policy.jpg",
-        link: "/#"
-    }
+    // {
+    //     title: "수수료 시스템",
+    //     period: "2025.12 ~ 2026.01",
+    //     desc: "자회사(쇼엠 인슈어런스) 상담원 관리 및 수수료 정산 자동화 시스템 제작",
+    //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+    //     image: "/images/security_policy.jpg",
+    //     link: "/#"
+    // },
+    // {
+    //     title: "쇼엠 인슈어런스 종합정보시스템 제작",
+    //     period: "2025.09",
+    //     desc: "자회사(쇼엠 인슈어런스) 사내 종합 정보 시스템 제작",
+    //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+    //     image: "/images/security_policy.jpg",
+    //     link: "/#"
+    // },
+    // {
+    //     title: "상담톡 시스템",
+    //     period: "2026.01 ~ 2026.02",
+    //     desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
+    //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+    //     image: "/images/security_policy.jpg",
+    //     link: "/#"
+    // },
+    // {
+    //     title: "SM-TMCall 분석 사이트",
+    //     period: "2026.01",
+    //     desc: "자회사(쇼엠 인슈어런스) 녹취 분석 및 통계 시스템 제작",
+    //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+    //     image: "/images/security_policy.jpg",
+    //     link: "/#"
+    // }
 ];
 
 // Career
