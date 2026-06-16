@@ -27,6 +27,7 @@
 .detail-section { margin-top: 80px; } 
 .detail-section-title { margin-bottom: 25px; font-size: 32px; font-weight: 700; } 
 .detail-desc, .detail-resp { line-height: 1.8; font-size: 18px; color: #555; } 
+.detail-resp { white-space: pre-line; }
 .detail-feature-list { padding-left: 20px; } 
 .detail-feature-list li { margin-bottom: 12px; font-size: 18px; } 
 .detail-screen-item { margin-top: 60px; } 
