@@ -63,6 +63,7 @@ header nav .menu-item:hover { color: #51609c; }
 
 .career-company { margin-bottom: 30px; border-bottom: 1px solid #A2A2A2; } 
 .career-company:last-of-type { border-bottom: none; } 
+.career-logo { height: 66px; }
 .career-company-name { font-size: 28px; font-weight: 700; margin-bottom: 10px; } 
 .career-period { color: #666; margin-bottom: 15px; } 
 .career-skills { display: flex; gap: 10px; margin-bottom: 20px; } 

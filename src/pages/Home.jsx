@@ -83,13 +83,13 @@ const projects = [
     }
 ];
 
-// Carrer
+// career
 const careerData = [
     {
         company: "(주) 쇼엠",
         period: "2025.11.11 ~ 2026.02.20 (1년 3개월)",
         skills: ["PHP", "웹개발", "웹사이트 개발"],
-        image: "/images/showm.jpg",
+        image: "/images/showm.png",
         projects: [
             {
                 title: "모바일 서비스 기획 및 운영 기반 수익화 플랫폼 구축",
@@ -107,7 +107,7 @@ const careerData = [
         company: "(주) 두두아이티",
         period: "2023.11 ~ 2024.07 (9개월)",
         skills: ["C", "C++","임베디드 리눅스"],
-        image: "/images/duduit.jpg",
+        image: "/images/duduit.png",
         projects: [
             {
                 title: "정부 과제 기반 IP 카메라 TTA 인증 대응 및 펌웨어 개선",
@@ -127,7 +127,7 @@ function Home() {
                     <a className="menu-item" href="#about">About</a>
                     <a className="menu-item" href="#skill">Skills</a>
                     <a className="menu-item" href="#project">Project</a>
-                    <a className="menu-item" href="#career">Carrer</a>
+                    <a className="menu-item" href="#career">career</a>
                 </nav>
             </header>
 
@@ -263,6 +263,7 @@ function Home() {
                     <div key={idx} className="career-company">
                     
                         <img
+                            className="career-logo"
                             src={`${import.meta.env.BASE_URL}${company.image}`}
                             alt={company.company}
                         />
