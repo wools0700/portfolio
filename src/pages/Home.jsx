@@ -201,7 +201,7 @@ function Home() {
                     modules={[Pagination, Navigation]}
                     spaceBetween={20}
                     pagination={{ clickable: true }}
-                    navigation
+                    // navigation
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
