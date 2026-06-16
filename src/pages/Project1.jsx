@@ -1,6 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Project1() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const navigate = useNavigate();
 
     const project = {
         title: "세무·회계 종합 시스템",
@@ -70,15 +76,10 @@ function Project1() {
         <main className="detail-page">
 
             <div className="detail-container">
-
-                <Link
-                    to="/"
-                    className="detail-back-btn"
-                >
-                    ← 목록으로
-                </Link>
-
                 
+                <button className="detail-back-btn" onClick={() => navigate(-1)}>
+                    ← 목록으로
+                </button>
 
                 <h1 className="detail-title">
                     {project.title}

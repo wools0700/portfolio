@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // About
 const infos = [
@@ -83,7 +84,7 @@ const projects = [
     }
 ];
 
-// career
+// Career
 const careerData = [
     {
         company: "(주) 쇼엠",
@@ -127,7 +128,7 @@ function Home() {
                     <a className="menu-item" href="#about">About</a>
                     <a className="menu-item" href="#skill">Skills</a>
                     <a className="menu-item" href="#project">Project</a>
-                    <a className="menu-item" href="#career">career</a>
+                    <a className="menu-item" href="#career">Career</a>
                 </nav>
             </header>
 
@@ -197,9 +198,10 @@ function Home() {
                 </h2>
 
                 <Swiper
-                    modules={[Pagination]}
+                    modules={[Pagination, Navigation]}
                     spaceBetween={20}
                     pagination={{ clickable: true }}
+                    navigation
                     breakpoints={{
                         0: {
                             slidesPerView: 1,

@@ -19,7 +19,7 @@ header nav .menu-item:hover { color: #51609c; }
 .hero-desc { margin-top: 20px; font-size: 20px; opacity: 0.9; } 
 
 .section-item { padding: 60px 76px; } 
-.section-item.colored { background-color: #CED6F4; border-radius: 10px; } 
+.section-item.colored { background-color: #CED6F4; border-radius: 24px; } 
 .section-item .section-title { font-size: 48px; margin-bottom: 50px; color: #6D81D0; } 
 
 .about-wrap { display: flex; justify-content: flex-start; align-items: center; gap: 60px; margin-bottom: 50px; } 
@@ -38,6 +38,19 @@ header nav .menu-item:hover { color: #51609c; }
 .skill-wrap .skill-item .skill-bar .skill-value { font-size: 24px; font-weight: 500; position: absolute; top: 50%; right: 30px; transform: translateY(-50%) } 
 
 .project-swiper { padding-bottom: 50px; } 
+.project-swiper .swiper-button-prev,
+.project-swiper .swiper-button-next { width: 52px; height: 52px; background: #6D81D0; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,.12); color: #ffffff; transition: all .2s ease; } 
+.project-swiper .swiper-button-prev:hover,
+.project-swiper .swiper-button-next:hover { background: #8897d1; box-shadow: 0 8px 20px rgba(0,0,0,.18); } 
+.project-swiper .swiper-button-prev { left: 10px; } 
+.project-swiper .swiper-button-next { right: 10px; } 
+.project-swiper .swiper-button-prev svg,
+.project-swiper .swiper-button-next svg { display: none; } 
+.project-swiper .swiper-button-prev::before { content: "←"; } 
+.project-swiper .swiper-button-next::before { content: "→"; } 
+.project-swiper .swiper-button-prev::before,
+.project-swiper .swiper-button-next::before { font-size: 20px; font-weight: 900; color: #ffffff; } 
+
 .project-item { background: #fff; border: 1px solid #ddd; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.05); transition: box-shadow .3s ease, border-color .3s ease; } 
 .project-item .project-thumb img { transition: transform .4s ease; } 
 .project-item:hover { border-color: #bbb; box-shadow: 0 12px 24px rgba(0,0,0,.12); } 

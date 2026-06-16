@@ -4,7 +4,7 @@
 .detail-notice strong { display: block; margin-bottom: 10px; font-size: 18px; color: #6D81D0; } 
 .detail-notice p { line-height: 1.8; color: #555; } 
 
-.detail-back-btn { display: inline-block; margin-bottom: 40px; text-decoration: none; color: #666; font-size: 18px; transition: .2s ease; } 
+.detail-back-btn { all: unset; cursor: pointer; display: inline-block; margin-bottom: 40px; color: #666; font-size: 18px; transition: .2s ease; } 
 .detail-back-btn:hover { color: #6D81D0; transform: translateX(-4px); } 
 
 .detail-container { width: 1200px; margin: 0 auto; } 
