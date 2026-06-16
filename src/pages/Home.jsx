@@ -39,7 +39,7 @@ const projects = [
         desc: "사내 회계 시스템 제작",
         skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
         image: "/images/security_policy.jpg",
-        link: "/#"
+        link: "/project1"
     },
     {
         title: "SM-TMCall 시스템",

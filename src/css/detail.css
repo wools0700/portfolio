@@ -1,0 +1,37 @@
+.detail-page { padding: 0 20px; }
+
+.detail-notice { margin-bottom: 50px; padding: 20px; border-left: 5px solid #6D81D0; background: #f5f7ff; border-radius: 8px; } 
+.detail-notice strong { display: block; margin-bottom: 10px; font-size: 18px; color: #6D81D0; } 
+.detail-notice p { line-height: 1.8; color: #555; } 
+
+.detail-back-btn { display: inline-block; margin-bottom: 40px; text-decoration: none; color: #666; font-size: 18px; transition: .2s ease; } 
+.detail-back-btn:hover { color: #6D81D0; transform: translateX(-4px); } 
+
+.detail-container { width: 1200px; margin: 0 auto; } 
+.detail-title { font-size: 48px; font-weight: 700; color: #6D81D0; } 
+.detail-period { margin-top: 10px; font-size: 18px; color: #888; } 
+
+.detail-skill-wrap { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; } 
+.detail-skill { padding: 6px 14px; border-radius: 6px; font-size: 14px; } 
+.detail-skill.HTML { border: 1px solid #FF9C2B; background-color: #FF9C2B4D; } 
+.detail-skill.CSS { border: 1px solid #A8DBFF; background-color: #A8DBFF4D; } 
+.detail-skill.JavaScript { border: 1px solid #90C4A4; background-color: #90C4A44D; } 
+.detail-skill.jQuery { border: 1px solid #AF90C4; background-color: #AF90C44D; } 
+.detail-skill.PHP { border: 1px solid #FFD796; background-color: #FFD7964D; } 
+.detail-skill.React { border: 1px solid #FFA8A8; background-color: #FFA8A84D; } 
+.detail-skill.GitHub { border: 1px solid #7EE1E4; background-color: #7EE1E44D; } 
+.detail-skill.AI { border: 1px solid #E47ECE; background-color: #E47ECE4D; } 
+.detail-skill.Python { border: 1px solid #697DFF; background-color: #697DFF4D; } 
+.detail-skill.MySQL { border: 1px solid #b9ff69; background-color: #adff694d; } 
+
+.detail-section { margin-top: 80px; } 
+.detail-section-title { margin-bottom: 25px; font-size: 32px; font-weight: 700; } 
+.detail-desc, .detail-resp { line-height: 1.8; font-size: 18px; color: #555; } 
+.detail-feature-list { padding-left: 20px; } 
+.detail-feature-list li { margin-bottom: 12px; font-size: 18px; } 
+.detail-screen-item { margin-top: 60px; } 
+.detail-screen-image { border: 1px solid #ddd; border-radius: 12px; overflow: hidden; } 
+.detail-screen-image img { display: block; width: 100%; } 
+.detail-screen-content { margin-top: 20px; } 
+.detail-screen-title { font-size: 24px; font-weight: 700; } 
+.detail-screen-desc { margin-top: 10px; line-height: 1.8; color: #555; } 
