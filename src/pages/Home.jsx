@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/home.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -41,6 +40,46 @@ const projects = [
         skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
         image: "/images/security_policy.jpg",
         link: "/#"
+    },
+    {
+        title: "SM-TMCall 시스템",
+        period: "2025.07 ~ 2025.08",
+        desc: "자회사(쇼엠 인슈어런스) 보험 텔레마케팅 사용자 및 관리자 사이트 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/#"
+    },
+    {
+        title: "수수료 시스템",
+        period: "2025.12 ~ 2026.01",
+        desc: "자회사(쇼엠 인슈어런스) 상담원 관리 및 수수료 정산 자동화 시스템 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/#"
+    },
+    {
+        title: "쇼엠 인슈어런스 종합정보시스템 제작",
+        period: "2025.09",
+        desc: "자회사(쇼엠 인슈어런스) 사내 종합 정보 시스템 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/#"
+    },
+    {
+        title: "상담톡 시스템",
+        period: "2026.01 ~ 2026.02",
+        desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/#"
+    },
+    {
+        title: "SM-TMCall 분석 사이트",
+        period: "2026.01",
+        desc: "자회사(쇼엠 인슈어런스) 녹취 분석 및 통계 시스템 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/#"
     }
 ];
 
@@ -50,10 +89,11 @@ const careerData = [
         company: "(주) 쇼엠",
         period: "2025.11.11 ~ 2026.02.20 (1년 3개월)",
         skills: ["PHP", "웹개발", "웹사이트 개발"],
+        image: "/images/showm.jpg",
         projects: [
             {
                 title: "모바일 서비스 기획 및 운영 기반 수익화 플랫폼 구축",
-                date: "2024.11 ~ 2025.05 (6개월)",
+                date: "2024.11 ~ 2025.05",
                 desc: "광고 기반 수익 모델을 적용한 모바일 애플리케이션 및 웹 서비스를 기획·개발. 카카오 비즈니스 채널 및 웹사이트를 연계한 서비스 운영을 통해 다양한 플랫폼을 구축하고 약 40여 개 서비스의 생성 및 운영 경험 확보"
             },
             {
@@ -67,10 +107,11 @@ const careerData = [
         company: "(주) 두두아이티",
         period: "2023.11 ~ 2024.07 (9개월)",
         skills: ["C", "C++","임베디드 리눅스"],
+        image: "/images/duduit.jpg",
         projects: [
             {
                 title: "정부 과제 기반 IP 카메라 TTA 인증 대응 및 펌웨어 개선",
-                date: "2023.11 ~ 2024.07 (9개월)",
+                date: "2023.11 ~ 2024.07",
                 desc: "IP 카메라 펌웨어 및 CGI 수정과 테스트를 수행하며 TTA 인증 기준에 맞는 테스트 리스트를 구축. 인증 실패 원인을 분석하고 개선을 반복하여 20개 이상의 펌웨어 버전을 검증, 4종 디바이스의 인증 및 개발지원 시험 통과에 기여"
             },
         ],
@@ -161,10 +202,10 @@ function Home() {
                     pagination={{ clickable: true }}
                     breakpoints={{
                         0: {
-                            slidesPerView: 1, // 모바일
+                            slidesPerView: 1,
                         },
                         768: {
-                            slidesPerView: 2, // 태블릿 이상
+                            slidesPerView: 2,
                         },
                     }}
                     className="project-swiper"
@@ -221,6 +262,10 @@ function Home() {
                 {careerData.map((company, idx) => (
                     <div key={idx} className="career-company">
                     
+                        <img
+                            src={`${import.meta.env.BASE_URL}${company.image}`}
+                            alt={company.company}
+                        />
                         <h3 className="career-company-name">{company.company}</h3>
                         <p className="career-period">{company.period}</p>
 

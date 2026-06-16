@@ -19,7 +19,7 @@ header nav .menu-item:hover { color: #51609c; }
 .hero-desc { margin-top: 20px; font-size: 20px; opacity: 0.9; } 
 
 .section-item { padding: 60px 76px; } 
-.section-item.colored { background-color: #CED6F4; } 
+.section-item.colored { background-color: #CED6F4; border-radius: 10px; } 
 .section-item .section-title { font-size: 48px; margin-bottom: 50px; color: #6D81D0; } 
 
 .about-wrap { display: flex; justify-content: flex-start; align-items: center; gap: 60px; margin-bottom: 50px; } 
