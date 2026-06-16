@@ -56,7 +56,7 @@ const projects = [
         desc: "자회사(쇼엠 인슈어런스) 상담원 수수료 관리 및 정산 업무 지원 시스템 제작",
         skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
         image: "/images/security_policy.jpg",
-        link: "/#"
+        link: "/project3"
     },
     // {
     //     title: "쇼엠 인슈어런스 종합정보시스템 제작",
