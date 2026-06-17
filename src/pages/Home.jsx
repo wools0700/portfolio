@@ -58,18 +58,18 @@ const projects = [
         image: "/images/security_policy.jpg",
         link: "/project3"
     },
+    {
+        title: "상담톡 시스템",
+        period: "2026.01 ~ 2026.02",
+        desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
+        skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
+        image: "/images/security_policy.jpg",
+        link: "/project4"
+    },
     // {
     //     title: "쇼엠 인슈어런스 종합정보시스템 제작",
     //     period: "2025.09",
     //     desc: "자회사(쇼엠 인슈어런스) 사내 종합 정보 시스템 제작",
-    //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
-    //     image: "/images/security_policy.jpg",
-    //     link: "/#"
-    // },
-    // {
-    //     title: "상담톡 시스템",
-    //     period: "2026.01 ~ 2026.02",
-    //     desc: "자회사(쇼엠 인슈어런스) 카카오톡 오픈채팅 상담 시스템 제작",
     //     skills: ["HTML", "CSS","JavaScript","jQuery","PHP"],
     //     image: "/images/security_policy.jpg",
     //     link: "/#"
